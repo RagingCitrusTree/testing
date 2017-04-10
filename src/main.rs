@@ -18,5 +18,5 @@ fn answer() {
     let mut ans = String::new();
 
     io::stdin().read_line(&mut ans)
-        .expect("Failed to read line")
+        .expect("Failed to read line");
 }
